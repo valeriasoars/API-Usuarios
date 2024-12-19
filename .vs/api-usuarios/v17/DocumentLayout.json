@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Migrations\\20241219191022_createTableUsuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api-usuarios\\Migrations\\20241219191022_createTableUsuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\api-usuarios\\api-usuarios\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|solutionrelative:api-usuarios\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\api-usuarios\\api-usuarios\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|solutionrelative:api-usuarios\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\api-usuarios\\api-usuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|solutionrelative:api-usuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\api-usuarios\\api-usuarios\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|solutionrelative:api-usuarios\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\api-usuarios\\api-usuarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|solutionrelative:api-usuarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\api-usuarios\\api-usuarios\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|solutionrelative:api-usuarios\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,62 +22,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241219191022_createTableUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Migrations\\20241219191022_createTableUsuarios.cs",
-              "RelativeDocumentMoniker": "api-usuarios\\Migrations\\20241219191022_createTableUsuarios.cs",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Migrations\\20241219191022_createTableUsuarios.cs",
-              "RelativeToolTip": "api-usuarios\\Migrations\\20241219191022_createTableUsuarios.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABCAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Models\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "api-usuarios\\Models\\ResponseModel.cs",
+              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Models\\ResponseModel.cs",
+              "RelativeToolTip": "api-usuarios\\Models\\ResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T19:10:22.308Z",
+              "WhenOpened": "2024-12-19T19:15:55.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UsuarioModel.cs",
               "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Models\\UsuarioModel.cs",
               "RelativeDocumentMoniker": "api-usuarios\\Models\\UsuarioModel.cs",
               "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Models\\UsuarioModel.cs",
               "RelativeToolTip": "api-usuarios\\Models\\UsuarioModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T19:02:17.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Program.cs",
-              "RelativeDocumentMoniker": "api-usuarios\\Program.cs",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Program.cs",
-              "RelativeToolTip": "api-usuarios\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T18:51:10.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\appsettings.json",
-              "RelativeDocumentMoniker": "api-usuarios\\appsettings.json",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\appsettings.json",
-              "RelativeToolTip": "api-usuarios\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-19T18:44:49.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "api-usuarios\\Data\\AppDbContext.cs",
@@ -93,8 +60,7 @@
               "RelativeToolTip": "api-usuarios\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T18:41:37.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T18:41:37.129Z"
             }
           ]
         }
