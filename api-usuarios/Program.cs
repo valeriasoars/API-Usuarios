@@ -1,4 +1,5 @@
 using api_usuarios.Data;
+using api_usuarios.Services.Senha;
 using api_usuarios.Services.Usuario;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IUsuario, UsuarioService>();
+builder.Services.AddScoped<ISenha, SenhaService>();
 
 // database connection
 builder.Services.AddDbContext<AppDbContext>(options =>
