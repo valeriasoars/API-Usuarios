@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using api_usuarios.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace api_usuarios.Data
 {
@@ -8,5 +9,7 @@ namespace api_usuarios.Data
         {
             
         }
+
+        public DbSet<UsuarioModel> Usuarios { get; set; }
     }
 }
