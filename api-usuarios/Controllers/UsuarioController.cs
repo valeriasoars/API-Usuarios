@@ -1,5 +1,6 @@
 ﻿using api_usuarios.Dto.Usuario;
 using api_usuarios.Services.Usuario;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,6 +8,7 @@ namespace api_usuarios.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UsuarioController : ControllerBase
     {
         private readonly IUsuario _usuarioInterface;
@@ -16,6 +18,7 @@ namespace api_usuarios.Controllers
         }
 
         [HttpGet]
+
         public async Task<IActionResult> ListarUsuarios()
         {
             var usuarios = await _usuarioInterface.ListarUsuarios();
