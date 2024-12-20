@@ -1,4 +1,5 @@
 ﻿using api_usuarios.Data;
+using api_usuarios.Dto.Login;
 using api_usuarios.Dto.Usuario;
 using api_usuarios.Models;
 using api_usuarios.Services.Senha;
@@ -96,6 +97,47 @@ namespace api_usuarios.Services.Usuario
                 response.Status = false;
                 return response;
             }
+        }
+
+        public async Task<ResponseModel<UsuarioModel>> Login(UsuarioLoginDto usuarioLoginDto)
+        {
+            ResponseModel<UsuarioModel> response = new ResponseModel<UsuarioModel>();
+
+            try
+            {
+                var usuario = await _context.Usuarios.FirstOrDefaultAsync(userBanco => userBanco.Email == usuarioLoginDto.Email);
+
+                if(usuario == null)
+                {
+                    response.Mensagem = "Usuário não localizado!";
+                    response.Status = false;
+                    return response;
+                }
+
+                if(_senhaInterface.VerficaSenhaHash(usuarioLoginDto.Senha, usuario.SenhaHash, usuario.SenhaSalt))
+                {
+                    response.Mensagem = "Credenciais inválidas!";
+                    response.Status = false;
+                    return response;
+                }
+
+                var token = _senhaInterface.CriarToken(usuario);
+                usuario.Token = token;
+
+                _context.Update(usuario);
+                await _context.SaveChangesAsync();
+                response.Dados = usuario;
+                response.Mensagem = "Usuário logado com sucesso!";
+                return response;
+ 
+            }
+            catch (Exception ex)
+            {
+                response.Mensagem = ex.Message;
+                response.Status = false;
+                return response;
+            }
+
         }
 
         public async Task<ResponseModel<UsuarioModel>> RegistrarUsuario(UsuarioCriacaoDto usuarioCriacaoDto)

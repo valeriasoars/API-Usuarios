@@ -1,4 +1,5 @@
-﻿using api_usuarios.Dto.Usuario;
+﻿using api_usuarios.Dto.Login;
+using api_usuarios.Dto.Usuario;
 using api_usuarios.Services.Usuario;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -19,6 +20,13 @@ namespace api_usuarios.Controllers
         public async Task<IActionResult> RegistrarUsuario(UsuarioCriacaoDto usuarioCriacaoDto)
         {
             var usuario = await _usuarioInterface.RegistrarUsuario(usuarioCriacaoDto);
+            return Ok(usuario);
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(UsuarioLoginDto usuarioLoginDto)
+        {
+            var usuario = await _usuarioInterface.Login(usuarioLoginDto);
             return Ok(usuario);
         }
     }
