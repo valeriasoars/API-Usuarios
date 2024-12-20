@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\api-usuarios\\api-usuarios\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|solutionrelative:api-usuarios\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\api-usuarios\\api-usuarios\\services\\usuario\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|solutionrelative:api-usuarios\\services\\usuario\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\api-usuarios\\api-usuarios\\services\\senha\\senhaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|solutionrelative:api-usuarios\\services\\senha\\senhaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\api-usuarios\\api-usuarios\\dto\\usuario\\usuariocriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|solutionrelative:api-usuarios\\dto\\usuario\\usuariocriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\api-usuarios\\api-usuarios\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|solutionrelative:api-usuarios\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\api-usuarios\\api-usuarios\\services\\usuario\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C66B3CB-08E2-41EC-A20B-06A257A9D865}|api-usuarios\\api-usuarios.csproj|solutionrelative:api-usuarios\\services\\usuario\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Services\\Usuario\\UsuarioService.cs",
               "RelativeDocumentMoniker": "api-usuarios\\Services\\Usuario\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Services\\Usuario\\UsuarioService.cs",
-              "RelativeToolTip": "api-usuarios\\Services\\Usuario\\UsuarioService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Services\\Usuario\\UsuarioService.cs*",
+              "RelativeToolTip": "api-usuarios\\Services\\Usuario\\UsuarioService.cs*",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAmwKEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T21:38:54.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SenhaService.cs",
-              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Services\\Senha\\SenhaService.cs",
-              "RelativeDocumentMoniker": "api-usuarios\\Services\\Senha\\SenhaService.cs",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Services\\Senha\\SenhaService.cs",
-              "RelativeToolTip": "api-usuarios\\Services\\Senha\\SenhaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T21:38:52.494Z",
+              "WhenOpened": "2024-12-19T22:06:56.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UsuarioCriacaoDto.cs",
-              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Dto\\Usuario\\UsuarioCriacaoDto.cs",
-              "RelativeDocumentMoniker": "api-usuarios\\Dto\\Usuario\\UsuarioCriacaoDto.cs",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Dto\\Usuario\\UsuarioCriacaoDto.cs",
-              "RelativeToolTip": "api-usuarios\\Dto\\Usuario\\UsuarioCriacaoDto.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Title": "IUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Services\\Usuario\\IUsuario.cs",
+              "RelativeDocumentMoniker": "api-usuarios\\Services\\Usuario\\IUsuario.cs",
+              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Services\\Usuario\\IUsuario.cs",
+              "RelativeToolTip": "api-usuarios\\Services\\Usuario\\IUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T21:21:01.333Z",
+              "WhenOpened": "2024-12-19T22:06:56.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "api-usuarios\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "api-usuarios\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "api-usuarios\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\api-usuarios\\api-usuarios\\Controllers\\UsuarioController.cs*",
+              "RelativeToolTip": "api-usuarios\\Controllers\\UsuarioController.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T20:35:45.688Z",
+              "WhenOpened": "2024-12-19T21:57:26.737Z",
               "EditorCaption": ""
             }
           ]
